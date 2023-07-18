@@ -52,3 +52,14 @@ a = a + 1;
 b = b + 5;
 c = c + " String!";
 ```
+
+### Understanding Case Sensitivity in Variables
+```js
+var studlyCapVar;
+var properCamelCase;
+var titleCaseOver;
+
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
+```
