@@ -8,3 +8,8 @@ This is a note for my javascript learning process at freeCodeCamp
  * this is my second comment on free code camp
  */
 ```
+
+### Declare Javascript Variable
+```js
+var myName;
+```
