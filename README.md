@@ -13,3 +13,12 @@ This is a note for my javascript learning process at freeCodeCamp
 ```js
 var myName;
 ```
+
+### Storing Values with the Assignment Operator
+```js
+// Setup
+var a;
+
+// Only change code below this line
+a = 7;
+```
