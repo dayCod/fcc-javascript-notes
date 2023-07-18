@@ -35,3 +35,9 @@ b = a;
 ```js
 var a = 9;
 ```
+
+### Declare String Variables
+```js
+var myFirstName = "Day";
+var myLastName = "Cod";
+```
