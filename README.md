@@ -30,3 +30,8 @@ a = 7;
 var b;
 b = a;
 ```
+
+### Initializing Variables with the Assignment Operator
+```js
+var a = 9;
+```
