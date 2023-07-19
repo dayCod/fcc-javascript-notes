@@ -98,3 +98,11 @@ const PRODUCT = 8 * 10;
 ```js
 const QUOTIENT = 66 / 33;
 ```
+
+### Increment a Number with JavaScript
+```js
+let myVar = 87;
+myVar++
+
+// equivalent to myVar = myVar + 1;
+```
