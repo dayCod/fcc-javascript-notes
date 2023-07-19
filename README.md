@@ -128,3 +128,10 @@ const PRODUCT = 2.0 * 2.5;
 
 // return 5.0;
 ```
+
+### Divide One Decimal by Another with JavaScript
+```js
+const QUOTIENT = 4.4 / 2.0;
+
+// return 2.2;
+```
