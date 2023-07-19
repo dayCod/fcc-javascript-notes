@@ -121,3 +121,10 @@ const MY_DECIMAL = parseFloat(5.7);
 
 // if your input number is 5 it'll return 5.0;
 ```
+
+### Multiply Two Decimals with JavaScript
+```js
+const PRODUCT = 2.0 * 2.5;
+
+// return 5.0;
+```
