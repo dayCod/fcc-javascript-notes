@@ -106,3 +106,11 @@ myVar++
 
 // equivalent to myVar = myVar + 1;
 ```
+
+### Decrement a Number with JavaScript
+```js
+let myVar = 11;
+myVar--;
+
+// equivalent to myVar = myVar - 1;
+```
