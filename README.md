@@ -77,3 +77,8 @@ let fact = "is cool!";
 fact = "is awesome!";
 console.log(FCC, fact)
 ```
+
+### Add Two Numbers with JavaScript
+```js
+const SUM = 10 + 10;
+```
