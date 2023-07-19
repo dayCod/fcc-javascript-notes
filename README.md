@@ -114,3 +114,10 @@ myVar--;
 
 // equivalent to myVar = myVar - 1;
 ```
+
+### Create Decimal Numbers with JavaScript
+```js
+const MY_DECIMAL = parseFloat(5.7);
+
+// if your input number is 5 it'll return 5.0;
+```
