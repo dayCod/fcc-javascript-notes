@@ -92,3 +92,9 @@ const DIFFERENCE = 45 - 33;
 ```js
 const PRODUCT = 8 * 10;
 ```
+
+
+### Divide One Number by Another with JavaScript
+```js
+const QUOTIENT = 66 / 33;
+```
