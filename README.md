@@ -135,3 +135,10 @@ const QUOTIENT = 4.4 / 2.0;
 
 // return 2.2;
 ```
+
+### Finding a Remainder in JavaScript
+```js
+const REMAINDER = 8 % 3;
+
+// return 2, because 8 / 3 = 2 remainder 2;
+```
