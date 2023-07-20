@@ -155,3 +155,16 @@ c += 7;
 
 // equivalent to a = a + 12;
 ```
+
+### Compound Assignment With Augmented Subtraction
+```js
+let a = 11;
+let b = 9;
+let c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
+
+// equivalent to a = a - 6;
+```
