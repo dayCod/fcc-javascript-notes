@@ -178,4 +178,20 @@ let c = 4.6;
 a *= 5;
 b *= 3;
 c *= 10;
+
+// equivalent to a = a * 5;
+```
+
+### Compound Assignment With Augmented Division
+```js
+let a = 48;
+let b = 100;
+let c = 33;
+
+a /= 12;
+b /= 4;
+c /= 11;
+
+// equivalent to a = a / 12;
+
 ```
