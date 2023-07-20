@@ -142,3 +142,16 @@ const REMAINDER = 8 % 3;
 
 // return 2, because 8 / 3 = 2 remainder 2;
 ```
+
+### Compound Assignment With Augmented Addition
+```js
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+
+// equivalent to a = a + 12;
+```
