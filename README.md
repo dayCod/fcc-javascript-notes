@@ -200,3 +200,8 @@ c /= 11;
 const MY_STR = "I am a \"double quoted\" string inside \"double quotes\".";
 ```
 
+### Quoting Strings with Single Quotes
+```js
+const MY_STR = '<a href="http://www.example.com" target="_blank">Link</a>';
+```
+
