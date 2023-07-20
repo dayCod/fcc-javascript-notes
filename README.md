@@ -193,5 +193,9 @@ b /= 4;
 c /= 11;
 
 // equivalent to a = a / 12;
+```
 
+### Escaping Literal Quotes in Strings
+```js
+const MY_STR = "I am a \"double quoted\" string inside \"double quotes\".";
 ```
