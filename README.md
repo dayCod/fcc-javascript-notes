@@ -222,3 +222,9 @@ const MY_STR = "FirstLine\n\t\\SecondLine\nThirdLine";
 const MY_STR = "This is the start. " + "This is the end.";
 ```
 
+### Concatenating Strings with the Plus Equals Operator
+```js
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+```
+
