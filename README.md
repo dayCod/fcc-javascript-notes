@@ -168,3 +168,14 @@ c -= 1;
 
 // equivalent to a = a - 6;
 ```
+
+### Compound Assignment With Augmented Multiplication
+```js
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+```
