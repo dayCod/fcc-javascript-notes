@@ -256,3 +256,10 @@ const lastName = "Lovelace";
 firstLetterOfLastName = lastName[0];
 ```
 
+### Understand String Immutability
+```js
+let myStr = "Jello World";
+myStr = "Hello World";
+console.log(myStr);
+```
+
