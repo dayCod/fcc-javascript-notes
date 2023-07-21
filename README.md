@@ -234,3 +234,10 @@ const myName = "john william doe";
 const myStr = "hi " + myName + " how are you ?";
 ```
 
+### Appending Variables to Strings
+```js
+const someAdjective = "awesome cool and marvelous";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+```
+
