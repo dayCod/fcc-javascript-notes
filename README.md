@@ -291,3 +291,8 @@ const myAdverb = "quickly";
 let wordBlanks = "my " + myNoun + " is " + myAdjective + " and " + myVerb + " " + myAdverb; 
 console.log(wordBlanks)
 ```
+
+### Store Multiple Values in one Variable using JavaScript Arrays
+```js
+const myArray = ["string", 1];
+```
