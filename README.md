@@ -296,3 +296,8 @@ console.log(wordBlanks)
 ```js
 const myArray = ["string", 1];
 ```
+
+### Nest one Array within Another Array
+```js
+const myArray = [["bulls", 23]];
+```
