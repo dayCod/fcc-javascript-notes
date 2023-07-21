@@ -228,3 +228,9 @@ let myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 ```
 
+### Constructing Strings with Variables
+```js
+const myName = "john william doe";
+const myStr = "hi " + myName + " how are you ?";
+```
+
