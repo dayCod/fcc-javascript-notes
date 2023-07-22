@@ -335,3 +335,10 @@ const myArray = [["John", 23], ["cat", 2]];
 myArray.push(['dog', 3]);
 console.log(myArray)
 ```
+
+### Manipulate Arrays With pop Method
+```js
+const myArray = [["John", 23], ["cat", 2]];
+let removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray)
+```
