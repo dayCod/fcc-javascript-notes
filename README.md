@@ -301,3 +301,10 @@ const myArray = ["string", 1];
 ```js
 const myArray = [["bulls", 23]];
 ```
+
+### Access Array Data with Indexes
+```js
+const myArray = [50, 60, 70];
+
+const myData = myArray[0];
+```
