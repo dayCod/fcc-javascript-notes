@@ -308,3 +308,11 @@ const myArray = [50, 60, 70];
 
 const myData = myArray[0];
 ```
+
+### Modify Array Data With Indexes
+```js
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+
+console.log(myArray)
+```
