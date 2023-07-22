@@ -369,3 +369,12 @@ const myList = [
   ["Cheese", 15],
 ];
 ```
+
+### Write Reusable JavaScript with Functions
+```js
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+reusableFunction()
+```
