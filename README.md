@@ -358,3 +358,14 @@ myArray.shift();
 myArray.unshift(["Paul", 35])
 console.log(myArray)
 ```
+
+### Shopping List
+```js
+const myList = [
+  ["Shampoo", 15],
+  ["Kitkat", 15],
+  ["Bodywash", 15],
+  ["Corn", 15],
+  ["Cheese", 15],
+];
+```
