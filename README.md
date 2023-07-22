@@ -342,3 +342,10 @@ const myArray = [["John", 23], ["cat", 2]];
 let removedFromMyArray = myArray.pop();
 console.log(removedFromMyArray)
 ```
+
+### Manipulate Arrays With shift Method
+```js
+const myArray = [["John", 23], ["dog", 3]];
+let removedFromMyArray = myArray.shift()
+console.log(removedFromMyArray)
+```
