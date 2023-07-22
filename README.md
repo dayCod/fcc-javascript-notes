@@ -388,3 +388,14 @@ function functionWithArgs(num1, num2) {
 functionWithArgs(1, 2)
 functionWithArgs(7, 9)
 ```
+
+### Return a Value from a Function with Return
+```js
+function timesFive(number){
+  return number * 5;
+}
+
+timesFive(5);
+timesFive(2);
+timesFive(0);
+```
