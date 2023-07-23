@@ -425,3 +425,15 @@ function fun2() {
 }
 
 ```
+
+### Local Scope and Functions
+```js
+function myLocalScope() {
+  // Only change code below this line
+  const myVar = "foo";
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+console.log('outside myLocalScope', myLocalScope());
+```
