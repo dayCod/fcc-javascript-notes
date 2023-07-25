@@ -893,3 +893,34 @@ function sequentialSizes(val) {
 
 sequentialSizes(1);
 ```
+
+### Replacing If Else Chains with Switch
+```js
+function chainToSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+
+  switch (val) {
+    case "bob":
+      answer = "Marley";
+      break;
+    case 1:
+      answer = "There is no #1";
+      break;
+    case 7:
+      answer = "Ate Nine";
+      break;
+    case 42:
+      answer = "The Answer";
+      break;
+    case 99:
+      answer = "Missed me by this much!";
+      break;
+  }
+
+  // Only change code above this line
+  return answer;
+}
+
+chainToSwitch(7);
+```
