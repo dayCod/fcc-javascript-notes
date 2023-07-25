@@ -924,3 +924,14 @@ function chainToSwitch(val) {
 
 chainToSwitch(7);
 ```
+
+### Returning Boolean Values from Functions
+```js
+function isLess(a, b) {
+  // Only change code below this line
+  return (a < b) ? true : false;
+  // Only change code above this line
+}
+
+isLess(10, 15);
+```
