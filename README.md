@@ -748,3 +748,30 @@ console.log(orderMyLogic(4))
 orderMyLogic(6);
 orderMyLogic(11);
 ```
+
+### Chaining If Else Statements
+```js
+function testSize(num) {
+  // Only change code below this line
+  let result = "";
+  if (num < 5) {
+    result += "Tiny";
+  } else if (num < 10) {
+    result += "Small";
+  } else if (num < 15) {
+    result += "Medium";
+  } else if (num < 20) {
+    result += "Large";
+  } else if (num >= 20) {
+    result += "Huge";
+  } else {
+    result += "Change Me";
+  }
+
+  return result;
+
+  // Only change code above this line
+}
+
+testSize(7);
+```
