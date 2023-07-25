@@ -973,3 +973,16 @@ function cc(card) {
 console.log(cc('2'))
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 ```
+
+### Build JavaScript Objects
+```js
+const myDog = {
+  // Only change code below this line
+  "name": "AxeWall",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["Paw", "Undefined"]
+
+  // Only change code above this line
+};
+```
