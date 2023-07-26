@@ -1225,3 +1225,19 @@ updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 console.log(updateRecords(recordCollection, 5439, 'artist', 'ABBA'));
 
 ```
+
+### Iterate with JavaScript While Loops
+```js
+// Setup
+const myArray = [];
+
+// Only change code below this line
+let num = 0;
+
+while (num < 6) {
+  myArray.push(num);
+  num++;
+}
+
+console.log(myArray.sort().reverse())
+```
