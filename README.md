@@ -1241,3 +1241,17 @@ while (num < 6) {
 
 console.log(myArray.sort().reverse())
 ```
+
+### Iterate with JavaScript For Loops
+```js
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+for (let num = 1; num <= 5; num++) {
+  myArray.push(num);
+}
+
+console.log(myArray);
+```
