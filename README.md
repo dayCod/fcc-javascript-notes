@@ -1104,3 +1104,34 @@ function checkObj(obj, checkProp) {
 
 console.log(checkObj({gift: "pony", pet: "kitten", bed: "sleigh"}, "gift"))
 ```
+
+### Manipulating Complex Objects
+```js
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+myMusic.push({
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  });
+
+console.log(myMusic);
+```
