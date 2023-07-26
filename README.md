@@ -1054,3 +1054,18 @@ const myDog = {
 
 myDog.bark = "bow-wow";
 ```
+
+### Delete Properties from a JavaScript Object
+```js
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.tails;
+```
