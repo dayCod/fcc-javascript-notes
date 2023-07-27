@@ -1416,3 +1416,12 @@ function randomRange(myMin, myMax) {
 
 console.log(randomRange(1, 10))
 ```
+
+### Use the parseInt Function
+```js
+function convertToInteger(str) {
+  return parseInt(str);
+}
+
+convertToInteger("56");
+```
