@@ -1398,3 +1398,8 @@ function randomFraction() {
   // Only change code above this line
 }
 ```
+
+### Generate Random Whole Numbers with JavaScript
+```js
+
+```
