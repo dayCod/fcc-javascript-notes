@@ -1472,6 +1472,23 @@ function countdown(n){
 console.log(countdown(10));
 ```
 
+### Use Recursion to Create a Range of Numbers
+```js
+function rangeOfNumbers(startNum, endNum) {
+
+  if (endNum < startNum) {
+    return [];
+  } else {
+    const arrayRangeOfNumbers = rangeOfNumbers(startNum, endNum -1);
+    arrayRangeOfNumbers.push(endNum);
+    return arrayRangeOfNumbers;
+  }
+
+};
+
+console.log(rangeOfNumbers(1, 5));
+```
+
 
 
 
