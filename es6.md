@@ -201,3 +201,8 @@ const failuresList = makeList(result.failure);
 
 console.log(failuresList);
 ```
+
+### Write Concise Object Literal Declarations Using Object Property Shorthand
+```js
+const createPerson = (name, age, gender) => ({name, age, gender});
+```
