@@ -104,3 +104,13 @@ console.log(result)
 ```js
 let reCriminals = /C+/; // Change this line
 ```
+
+### Match Beginning String Patterns
+```js
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result = calRegex.test(rickyAndCal);
+
+
+console.log(result);
+```
