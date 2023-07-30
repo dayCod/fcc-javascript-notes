@@ -177,3 +177,10 @@ let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6}\sno/;
 let result = ohRegex.test(ohStr);
 ```
+
+### Specify Only the Lower Number of Matches
+```js
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Change this line
+let result = haRegex.test(haStr);
+```
