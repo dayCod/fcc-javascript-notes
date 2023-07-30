@@ -90,3 +90,12 @@ let chewieRegex = /Aa*/; // Change this line
 
 let result = chewieQuote.match(chewieRegex);
 ```
+
+### Find Characters with Lazy Matching
+```js
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<h*?[1-5]>/; // Change this line
+let result = text.match(myRegex);
+
+console.log(result)
+```
