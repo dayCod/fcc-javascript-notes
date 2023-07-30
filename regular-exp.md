@@ -67,3 +67,10 @@ let quoteSample = "Blueberry 3.141592653s are delicious.";
 let myRegex = /[h-s2-6]/gi; // Change this line
 let result = quoteSample.match(myRegex); // Change this line
 ```
+
+### Match Single Characters Not Specified
+```js
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou^0-9]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
+```
