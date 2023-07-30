@@ -207,3 +207,11 @@ let sampleWord = "astronaut";
 let pwRegex = /(?=\w{6})(?=\w*\d{2})/;
 let result = pwRegex.test(sampleWord);
 ```
+
+### Check For Mixed Grouping of Characters
+```js
+let myString = "Eleanor Roosevelt";
+let myRegex = /(Franklin D.|Eleanor) Roosevelt/; // Change this line
+let result = myRegex.test(myString); // Change this line
+// After passing the challenge experiment with myString and see how the grouping works
+```
