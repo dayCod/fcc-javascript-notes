@@ -149,3 +149,10 @@ let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/g; // Change this line
 let result = movieName.match(noNumRegex).length;
 ```
+
+### Restrict Possible Usernames
+```js
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i;
+let result = userCheck.test(username);
+```
