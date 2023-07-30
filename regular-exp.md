@@ -25,3 +25,10 @@ let myString = "freeCodeCamp";
 let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
 ```
+
+### Extract Matches
+```js
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/i; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
+```
