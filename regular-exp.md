@@ -99,3 +99,8 @@ let result = text.match(myRegex);
 
 console.log(result)
 ```
+
+### Find One or More Criminals in a Hunt
+```js
+let reCriminals = /C+/; // Change this line
+```
