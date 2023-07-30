@@ -11,3 +11,10 @@ let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /Waldo/; // Change this line
 let result = waldoRegex.test(waldoIsHiding);
 ```
+
+### Match a Literal String with Different Possibilities
+```js
+let petString = "James has a pet cat.";
+let petRegex = /has a pet dog|cat|bird|fish/; // Change this line
+let result = petRegex.test(petString);
+```
