@@ -99,3 +99,12 @@ let test = truncateString("A-tisket a-tasket A green and yellow basket", 8);
 
 console.log(test);
 ```
+
+### Finders Keepers
+```js
+function findElement(arr, func) {
+  return arr.find(func);
+}
+
+findElement([1, 2, 3, 4], num => num % 2 === 0);
+```
