@@ -155,3 +155,30 @@ function getIndexToIns(arr, num) {
 
 getIndexToIns([40, 60], 50);
 ```
+
+### Mutations
+```js
+function mutation(arr) {
+  return arr[1]
+    .toLowerCase()
+    .split("")
+    .every(function(letter) {
+      return arr[0].toLowerCase().indexOf(letter) !== -1;
+    });
+}
+
+mutation(["hello", "hey"]);
+```
+
+### Chunky Monkey
+```js
+function chunkArrayInGroups(arr, size) {
+  const newArr = [];
+  while (arr.length > 0) {
+    newArr.push(arr.splice(0, size));
+  }
+  return newArr;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
+```
