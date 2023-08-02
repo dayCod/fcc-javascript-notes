@@ -117,3 +117,14 @@ function booWho(bool) {
 
 console.log(booWho(null));
 ```
+
+### Title Case a Sentence
+```js
+function titleCase(str) {
+  return str
+    .toLowerCase()
+    .replace(/(^|\s)\S/g, L => L.toUpperCase());
+}
+
+console.log(titleCase("I'm a little tea pot"));
+```
