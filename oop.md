@@ -48,3 +48,14 @@ function Dog() {
   this.numLegs = 4;
 }
 ```
+
+### Use a Constructor to Create Objects
+```js
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+// Only change code below this line
+let hound = new Dog();
+```
