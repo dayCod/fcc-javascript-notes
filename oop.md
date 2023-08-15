@@ -15,3 +15,16 @@ let dog = {
 // Only change code below this line
 console.log('Dog Name:'+dog.name, 'Num of Legs:'+dog.numLegs)
 ```
+
+### Create a Method on an Object
+```js
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function () {
+    return "This dog has " + dog.numLegs + " legs.";
+  }
+};
+
+console.log(dog.sayLegs());
+```
