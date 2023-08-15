@@ -70,3 +70,12 @@ function Dog(name, color) {
 
 let terrier = new Dog('You', 'Grey');
 ```
+
+### Verify an Object's Constructor with instanceof
+```js
+function House(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
+let myHouse = new House(4);
+console.log(myHouse instanceof House);
+```
