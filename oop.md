@@ -192,3 +192,17 @@ let beagle = new Dog("Snoopy");
 // Only change code below this line
 console.log(Dog.prototype.isPrototypeOf(beagle));
 ```
+
+### Understand the Prototype Chain
+```js
+function Dog(name) {
+  this.name = name;
+}
+
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // yields true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype);
+```
