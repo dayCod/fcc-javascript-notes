@@ -111,3 +111,19 @@ const finalTabs = socialWindow
   .join(workWindow.tabClose(1).tabOpen());
 console.log(finalTabs.tabs);
 ```
+
+### Avoid Mutations and Side Effects Using Functional Programming
+```js
+// the global variable
+var fixedValue = 4;
+
+function incrementer() {
+  // Add your code below this line
+  return fixedValue + 1;
+
+  // Add your code above this line
+}
+
+var newValue = incrementer(); // Should equal 5
+console.log(fixedValue); // Should print 4
+```
