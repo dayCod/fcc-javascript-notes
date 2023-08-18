@@ -127,3 +127,8 @@ function incrementer() {
 var newValue = incrementer(); // Should equal 5
 console.log(fixedValue); // Should print 4
 ```
+
+### Pass Arguments to Avoid External Dependence in a Function
+```js
+
+```
