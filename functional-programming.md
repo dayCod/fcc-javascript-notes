@@ -130,5 +130,13 @@ console.log(fixedValue); // Should print 4
 
 ### Pass Arguments to Avoid External Dependence in a Function
 ```js
+// The global variable
+let fixedValue = 4;
 
+// Only change code below this line
+function incrementer(num) {
+
+  return num + 1;
+  // Only change code above this line
+}
 ```
