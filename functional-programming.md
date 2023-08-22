@@ -175,3 +175,11 @@ var newestBookList = remove(add(bookList, 'A Brief History of Time'), 'On The El
 
 console.log(bookList);
 ```
+
+### Use the map Method to Extract Data from an Array
+```js
+const ratings = watchList.map(item => ({
+  title: item["Title"],
+  rating: item["imdbRating"]
+}));
+```
