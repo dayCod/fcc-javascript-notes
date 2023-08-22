@@ -196,3 +196,19 @@ Array.prototype.myMap = function(callback) {
   return newArray;
 };
 ```
+
+### Use the filter Method to Extract Data from an Array
+```js
+const filteredList = watchList
+  .filter(movie => {
+    // return true it will keep the item
+    // return false it will reject the item
+    return parseFloat(movie.imdbRating) >= 8.0;
+  })
+  .map(movie => {
+    return {
+      title: movie.Title,
+      rating: movie.imdbRating
+    };
+  });
+```
