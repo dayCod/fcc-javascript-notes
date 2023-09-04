@@ -139,3 +139,24 @@ function convertHTML(str) {
 
 convertHTML("Dolce & Gabbana");
 ```
+
+### Sum All Odd Fibonacci Numbers
+```js
+function sumFibs(num) {
+  
+  let f0 = 0;
+  let f1 = 1;
+  let f2 = 1;
+
+  let sum = 0;
+  while (f1 <= num) {
+    sum += f1;
+    if (f2 <= num) sum += f2;
+
+    [f0, f1] = [f1 + f2, f2 + (f1 + f2)];
+    f2 = f0 + f1;
+  }
+
+  return sum;
+}
+```
