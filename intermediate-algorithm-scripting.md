@@ -41,3 +41,15 @@ function whatIsInAName(collection, source) {
       .every(key => obj[key] === source[key]));
 }
 ```
+
+### Spinal Tap Case
+```js
+function spinalCase(str) {
+  return str
+    .split(/\s|_|(?=[A-Z])/)
+    .join("-")
+    .toLowerCase();
+}
+
+spinalCase('This Is Spinal Tap');
+```
