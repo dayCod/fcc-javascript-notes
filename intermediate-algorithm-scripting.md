@@ -204,3 +204,15 @@ dropElements([1, 2, 3, 4], function(n) {
   return n >= 3;
 });
 ```
+
+### Steamroller
+```js
+function steamrollArray(arr, flatArr = []) {
+  const elem = arr.pop();
+  return elem
+    ? !Array.isArray(elem)
+      ? steamrollArray(arr, [elem, ...flatArr])
+      : steamrollArray(arr.concat(elem), flatArr)
+    : flatArr;
+}
+```
