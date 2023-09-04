@@ -80,3 +80,21 @@ function myReplace(str, before, after) {
 // test:
 myReplace("A quick brown fox jumped over the lazy dog", "jumped", "leaped");
 ```
+
+### DNA Pairing
+```js
+function pairElement(str) {
+  const pairs = {
+    A: "T",
+    T: "A",
+    C: "G",
+    G: "C"
+  };
+
+  return str
+    .split("")
+    .map(x => [x, pairs[x]]);
+}
+
+pairElement("GCG");
+```
