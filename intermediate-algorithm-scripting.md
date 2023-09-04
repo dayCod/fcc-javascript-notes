@@ -30,3 +30,14 @@ function destroyer(arr, ...valsToRemove) {
   return arr.filter(elem => !valsToRemove.includes(elem));
 }
 ```
+
+### Wherefore art thou
+```js
+function whatIsInAName(collection, source) {
+  const sourceKeys = Object.keys(source);
+
+  return collection
+    .filter(obj => sourceKeys
+      .every(key => obj[key] === source[key]));
+}
+```
