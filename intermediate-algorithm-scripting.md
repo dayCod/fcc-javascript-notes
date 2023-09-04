@@ -240,3 +240,19 @@ function truthCheck(collection, pre) {
 
 truthCheck([{ name: "Quincy", role: "Founder", isBot: false }, { name: "Naomi", role: "", isBot: false }, { name: "Camperbot", role: "Bot", isBot: true }], "isBot");
 ```
+
+### Arguments Optional
+```js
+function addTogether() {
+  const [first, second] = arguments;
+
+  function addSecond(second) {
+    if (typeof (second) === "number") return first + second;
+  }
+
+  if (typeof (first) === "number") {
+    if (arguments.length === 1) return addSecond;
+    if (arguments.length === 2) return addSecond(second);
+  }
+}
+```
